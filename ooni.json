@@ -1,7 +1,7 @@
 [
     {
         "ta": {
-            "urls": [
+            "inputs": [
                 "https://www.reddit.com/",
                 "https://a.thumbs.redditmedia.com/robots.txt",
                 "https://styles.redditmedia.com/robots.txt",
