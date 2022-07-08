@@ -1,29 +1,33 @@
-[
-    {
-        "ta": {
-            "inputs": [
-                "https://www.reddit.com/",
-                "https://a.thumbs.redditmedia.com/robots.txt",
-                "https://styles.redditmedia.com/robots.txt",
-                "https://preview.redd.it/robots.txt",
-                "https://www.redditstatic.com/robots.txt",
-                "https://v.redd.it/robots.txt",
-                "https://b.thumbs.redditmedia.com/robots.txt",
-                "https://gql.reddit.com/",
-                "https://alb.reddit.com/robots.txt",
-                "https://gateway.reddit.com/robots.txt",
-                "https://external-preview.redd.it/robots.txt",
-                "https://www.quora.com/",
-                "https://qsbr.fs.quoracdn.net/-4-web.entry.js.out-34-8f7d03da0b7a24ae.webpack",
-                "https://qph.fs.quoracdn.net/main-thumb-1117688072-200-uijiqfjcmlvaxczdrlawbgyaomfocdnt.jpeg",
-                "https://www.pinterest.com/",
-                "https://i.pinimg.com/236x/78/6e/00/786e00eab219eca59803d118fbe0feb3.jpg",
-                "https://s.pinimg.com/robots.txt"
-            ]
-        },
-        "tn": "web_connectivity"
-    },
-    {
-        "tn": "dnscheck"
-    }
-]
+{
+	"name": "ooni.json",
+	"description": "Wikicensorship's custom OONI Run v2 descriptor",
+	"author": "github.com/wikicensorship",
+	"nettests": [
+		{
+			"inputs": [
+				"https://www.reddit.com/",
+				"https://a.thumbs.redditmedia.com/robots.txt",
+				"https://styles.redditmedia.com/robots.txt",
+				"https://preview.redd.it/robots.txt",
+				"https://www.redditstatic.com/robots.txt",
+				"https://v.redd.it/robots.txt",
+				"https://b.thumbs.redditmedia.com/robots.txt",
+				"https://gql.reddit.com/",
+				"https://alb.reddit.com/robots.txt",
+				"https://gateway.reddit.com/robots.txt",
+				"https://external-preview.redd.it/robots.txt",
+				"https://www.quora.com/",
+				"https://qsbr.fs.quoracdn.net/-4-web.entry.js.out-34-8f7d03da0b7a24ae.webpack",
+				"https://qph.fs.quoracdn.net/main-thumb-1117688072-200-uijiqfjcmlvaxczdrlawbgyaomfocdnt.jpeg",
+				"https://www.pinterest.com/",
+				"https://i.pinimg.com/236x/78/6e/00/786e00eab219eca59803d118fbe0feb3.jpg",
+				"https://s.pinimg.com/robots.txt"
+			],
+			"test_name": "web_connectivity"
+		},
+		{
+			"test_name": "dnscheck"
+		}
+	]
+}
+
