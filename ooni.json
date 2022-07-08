@@ -1,5 +1,5 @@
 {
-	"name": "ooni.json",
+	"name": "hidden-censorship",
 	"description": "Wikicensorship's custom OONI Run v2 descriptor",
 	"author": "github.com/wikicensorship",
 	"nettests": [
