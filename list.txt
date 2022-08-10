@@ -102,6 +102,7 @@ https://termux.org/
 https://termux.net/
 https://termux.com/
 https://dl.bintray.com/jfrog/xray/
+https://www.google.com/
 https://apis.google.com/robots.txt
 https://clients5.google.com/robots.txt
 https://clients1.google.com/robots.txt
