@@ -1,11 +1,11 @@
 {
-	"name": "hidden-censorship",
-	"description": "Wikicensorship's custom OONI Run v2 descriptor",
-	"author": "github.com/wikicensorship",
-	"nettests": [
-		{
-			"inputs": [
-				"https://github.com/",
+    "name": "hidden-censorship",
+    "description": "Wikicensorship's custom OONI Run v2 descriptor",
+    "author": "github.com/wikicensorship",
+    "nettests": [
+        {
+            "inputs": [
+                "https://github.com/",
                 "https://help.github.com/en",
                 "https://github.blog/",
                 "https://developer.github.com/",
@@ -147,11 +147,11 @@
                 "https://images.gr-assets.com/authors/1198518558p2/23924.jpg",
                 "https://s.gr-assets.com/robots.txt",
                 "https://i.gr-assets.com/robots.txt"
-			],
-			"test_name": "web_connectivity"
-		},
-		{
-			"test_name": "dnscheck"
-		}
-	]
+            ],
+            "test_name": "web_connectivity"
+        },
+        {
+            "test_name": "dnscheck"
+        }
+    ]
 }
