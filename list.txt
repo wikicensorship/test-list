@@ -62,6 +62,7 @@ https://clubhouse.pubnub.com/
 https://www.clubhouse.com/
 https://www.instagram.com/
 https://i.instagram.com/robots.txt
+https://static.cdninstagram.com/robots.txt
 https://scontent-ams4-1.cdninstagram.com/favicon.ico
 https://static.xx.fbcdn.net/robots.txt
 https://edge-chat.instagram.com/robots.txt
