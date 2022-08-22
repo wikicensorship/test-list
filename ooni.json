@@ -85,6 +85,38 @@
                 "https://scontent-cdg2-1.cdninstagram.com/favicon.ico",
                 "https://instagram.fdtm1-1.fna.fbcdn.net/favicon.ico",
                 "https://external.xx.fbcdn.net/robots.txt",
+                "https://instagram.fevn1-1.fna.fbcdn.net/favicon.ico",
+                "https://instagram.fevn1-4.fna.fbcdn.net/favicon.ico",
+                "https://instagram.fevn1-2.fna.fbcdn.net/favicon.ico",
+                "https://instagram.fevn1-3.fna.fbcdn.net/favicon.ico",
+                "https://scontent.fevn1-3.fna.fbcdn.net/favicon.ico",
+                "https://media0.giphy.com/robots.txt",
+                "https://media3.giphy.com/robots.txt",
+                "https://media1.giphy.com/robots.txt",
+                "https://media2.giphy.com/robots.txt",
+                "https://media4.giphy.com/robots.txt",
+                "https://scontent.fevn1-1.fna.fbcdn.net/favicon.ico",
+                "https://edge-mqtt.facebook.com/favicon.ico",
+                "https://scontent-frx5-1.cdninstagram.com/favicon.ico",
+                "https://scontent-frx5-2.cdninstagram.com/favicon.ico",
+                "https://scontent-frt3-2.cdninstagram.com/favicon.ico",
+                "https://instagram.fsaw1-13.fna.fbcdn.net/favicon.ico",
+                "https://instagram.fsaw1-15.fna.fbcdn.net/favicon.ico",
+                "https://instagram.fevn1-3.fna.fbcdn.net/favicon.ico",
+                "https://instagram.fevn1-4.fna.fbcdn.net/favicon.ico",
+                "https://web.facebook.com/robots.txt",
+                "https://lookaside.facebook.com/robots.txt",
+                "https://static.whatsapp.net/robots.txt",
+                "https://mmg.whatsapp.net/robots.txt",
+                "https://pps.whatsapp.net/robots.txt",
+                "https://v.whatsapp.net/robots.txt",
+                "https://web.whatsapp.com/",
+                "http://web.whatsapp.com/",
+                "https://dit.whatsapp.net/robots.txt",
+                "https://media-arn2-1.cdn.whatsapp.net/robots.txt",
+                "https://media.fevn1-1.fna.whatsapp.net/robots.txt",
+                "https://web.facebook.com/robots.txt",
+                "https://lookaside.facebook.com/robots.txt",
                 "https://verificationapi-v1.sinch.com/",
                 "https://api2.amplitude.com/",
                 "https://cdn.sstatic.net/Img/home/open-source.svg",
@@ -157,6 +189,12 @@
                 "https://i.gr-assets.com/robots.txt"
             ],
             "test_name": "web_connectivity"
+        },
+        {
+            "test_name": "whatsapp"
+        },
+        {
+            "test_name": "stunreachability"
         },
         {
             "test_name": "dnscheck"
