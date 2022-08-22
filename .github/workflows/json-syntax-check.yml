@@ -25,8 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      # Runs multi-line command using the runners shell
+      - name: check json syntax 
         run: |
           jq -e -r . -C ooni.json
           exit $?
