@@ -35,4 +35,4 @@ jobs:
       - name: check duplicate inputs 
         run: |
           dup_lines=`jq -r '.nettests[].inputs[]?' ooni.json | sort | uniq -d`
-          if [ $(echo "$dup_lines" | wc -l) -gt 0 ];then echo "$dup_lines";exit 1;else echo "nothing"; fi
+          if [ $(echo -n "$dup_lines" | wc -l) -gt 0 ];then echo "$dup_lines";exit 1;else echo "nothing"; fi
