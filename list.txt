@@ -122,6 +122,10 @@ https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fwww.google.com%2Fimages%2F
 https://yandex.com/
 https://yastatic.net/robots.txt
 https://yandexwebcache.net/robots.txt
+https://video-preview.s3.yandex.net/robots.txt
+https://avatars.mds.yandex.net/robots.txt
+https://static-mon.yandex.net/robots.txt
+https://favicon.yandex.net/robots.txt
 https://www.bing.com/
 https://r.bing.com/sa/simg/favicon-2x.ico
 https://cc.bingj.com/cache.aspx?q=nothing
