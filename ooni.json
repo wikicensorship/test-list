@@ -198,7 +198,7 @@
                 "https://s.gr-assets.com/robots.txt",
                 "https://i.gr-assets.com/robots.txt"
             ],
-            "test_name": "web_connectivity@v0.5"
+            "test_name": "web_connectivity"
         },
         {
             "test_name": "whatsapp"
