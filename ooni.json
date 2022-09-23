@@ -5,6 +5,8 @@
     "nettests": [
         {
             "inputs": [
+                "http://www.linkedin.com/",
+                "https://www.linkedin.com/",
                 "https://github.com/",
                 "https://help.github.com/en",
                 "https://github.blog/",
