@@ -27,12 +27,8 @@ jobs:
 
       # Runs multi-line command using the runners shell
       - name: check json syntax 
-        run: |
-          jq -e -r . -C ooni.json
-          exit $?
+        run: jq -e -r . -C ooni.json
       
       # Runs multi-line command using the runners shell
       - name: check duplicate inputs 
-        run: |
-          dup_lines=`jq -r '.nettests[].inputs[]?' ooni.json | sort | uniq -d`
-          if [ "$dup_lines" != "" ] && [ $(echo -n "$dup_lines" | wc -l) -gt 0 ];then echo "$dup_lines";exit 1;else echo "nothing"; fi
+        run: ./scripts/rejectdups.py ooni.json

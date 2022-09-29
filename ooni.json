@@ -265,7 +265,6 @@
                 "https://smp-device-content.apple.com/robots.txt",
                 "https://doh.dns.apple.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB",
                 "https://guzzoni.apple.com/robots.txt",
-                "https://sandbox.itunes.apple.com/robots.txt",
                 "https://www.example.org/"
             ],
             "test_name": "web_connectivity@v0.5"
