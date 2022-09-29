@@ -26,9 +26,10 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs multi-line command using the runners shell
-      - name: check json syntax 
-        run: jq -e -r . -C ooni.json
-      
+      - name: check json syntax
+        run: |
+          jq -e -r . -C ooni.json
+
       # Runs multi-line command using the runners shell
-      - name: check duplicate inputs 
+      - name: check duplicate inputs
         run: ./scripts/rejectdups.py ooni.json
