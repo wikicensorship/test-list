@@ -39,7 +39,7 @@ def dnscheck(descr):
             continue
         http3_enabled = nettest.get("options", {}).get("HTTP3Enabled", False)
         for input in nettest["inputs"]:
-            print(f"[dnscheck] checking {input} http3_enabled={http3_enabled}...")
+            print(f"[dnscheck] checking {input} for http3_enabled={http3_enabled}...")
             if http3_enabled:
                 if input in urls["http3"]:
                     raise RuntimeError(
